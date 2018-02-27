@@ -11,16 +11,9 @@
 
 以下是Demo效果：
 
-![image](/screenshots/1.gif)
-
-[DemoApp下载](app-debug.apk)
+![image](/image/1.jpg)
 
 
-
-## 二、引用初始化
-### 1、依赖
-
-	compile 'com.lqr.audio:library:1.0.0'
 
 ### 2、权限
 
@@ -42,7 +35,6 @@
 
 #### 2)设置语音位置：
 
-	//该库内不对文件夹是否存在进行判断，所以请在你的项目中自行判断
     mAudioDir = new File(Environment.getExternalStorageDirectory(), "LQR_AUDIO");
     if (!mAudioDir.exists()) {
         mAudioDir.mkdirs();
