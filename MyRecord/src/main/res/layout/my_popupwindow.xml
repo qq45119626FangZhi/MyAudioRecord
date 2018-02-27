@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/record_shape">
+
+    <Button
+        android:text="确定"
+        android:textSize="12sp"
+        android:id="@+id/btn_record_confirm"
+        android:background="@drawable/is_record_ok_selector"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/btn_record_continue"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/record_start"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+
+</LinearLayout>
